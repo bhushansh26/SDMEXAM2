@@ -18,10 +18,10 @@ class menudriven{
        Switch n
         {
             case 1:
-                System.out.println("Linear code here");
+                linear()
                 break;
             case 2:
-                System.out.println("Binary code here");
+                binary();
                 break;
             default:
                 System.out.println("Enter valid number");
